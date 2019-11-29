@@ -21,9 +21,9 @@ class User extends Model {
     return this.hasMany('App/Models/Token')
   }
 
-  teams() {
+  teams () {
     return this.belongsToMany('App/Models/Team')
-      .pivotModel('App/Models/Team')
+      .pivotModel('App/Models/UserTeam')
   }
 }
 
