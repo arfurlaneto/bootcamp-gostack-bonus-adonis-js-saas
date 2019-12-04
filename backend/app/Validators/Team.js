@@ -7,7 +7,7 @@ class Team {
 
   get rules () {
     return {
-      title: 'required'
+      name: 'required'
     }
   }
 }
