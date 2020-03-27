@@ -16,7 +16,7 @@ const GuestRoute = ({ component: Component, ...rest }) => (
 );
 
 GuestRoute.propTypes = {
-  component: PropTypes.func.isRequired,
+  component: PropTypes.oneOfType([PropTypes.func, PropTypes.object]).isRequired,
 };
 
 export default GuestRoute;

@@ -5,7 +5,7 @@ import { Switch } from 'react-router-dom';
 import history from './history';
 
 import Private from './private';
-import Guest from './private';
+import Guest from './guest';
 
 import Main from '~/pages/Main';
 import SignUp from '~/pages/Auth/SignUp';
