@@ -1,4 +1,9 @@
-# adonis-js-saas
+# bootcamp-gostack-bonus-adonis-js-saas
+Simple teams/projects application with multi-tenancy techniques.
+
+Created with Adonis JS ans React JS.
+
+Features database migrations, login, and async emailing.
 # Running
 ## Back-end
 - Setup your postgres and redis instances. You can use docker:
@@ -7,7 +12,7 @@ docker run --name postgresadonissaas -e POSTGRES_DB=adonissaas -e POSTGRES_PASSW
 docker run --name redisadonissaas -p 6379:6379 -d -t redis:alpine
 ```
 - Create an `.env` file with your configurations. Use `.env.example` as a example.
-- Install dependencies and prepare the database:
+- Install the dependencies and prepare the database:
 ```
 npm install
 adonis migration:run
